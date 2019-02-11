@@ -1,0 +1,1837 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,800|Poppins:300,400,700');
+
+html,
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    line-height: 1.7;
+    color: #253746;
+    font-weight: 300;
+    margin: 0 auto;
+    position: relative;
+    overflow-x: hidden;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiase;
+}
+
+.container-fluid.wild{
+  max-width: 1210px;
+  padding: 0;
+}
+
+.wild{
+  max-width: 1210px;
+}
+
+p,li{
+    font-size: 1rem;
+    display: block;
+    line-height: 1.7;
+    margin-bottom: 0;
+}
+
+a {
+    color: #253746;
+}
+
+
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+h1, h2, h3, h4{
+  font-family: "Montserrat", sans-serif !important;
+  color: #253746;
+  font-weight: 600;
+  font-family: inherit;
+  line-height: 1.3;
+}
+
+h1{
+  font-size: 2.5rem;
+  font-weight: 700 !important;
+}
+
+h2{
+  font-size: 2rem;
+  font-weight: 700 !important;
+}
+
+h3{
+  font-size: 1.3rem;
+}
+
+h4{
+  font-size: 1.2rem;
+}
+
+/*--drop down manu-services--*/
+
+.navbar{
+   background-color: rgba(25, 38, 49, 0.3);
+   padding: 40px 0;
+}
+
+.navbar-toggler:focus {
+    outline: none!important;
+    box-shadow: none!important;
+}
+
+.navbar-brand{
+  width: 300px;
+  padding-top: 7px;
+}
+.navbar img{
+  width: 40px;
+  padding-bottom: 5px;
+  display: inline-block;
+}
+
+.sb {
+  font-weight: 700;
+  font-size: 1.3rem;
+  padding: 0 0 0 5px;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+ font-family: "Montserrat", sans-serif;
+ letter-spacing: 1px;
+  text-transform: capitalize;
+  text-transform: uppercase;
+  transition: all 0.3s ease 0s;
+  display: block;
+  padding-right: 0;
+  font-weight: 600;
+  font-size:  0.85rem;
+  margin-left: 20px;
+  color: #fff;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+  color: #44dd61;
+}
+
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #44dd61;
+}
+
+/*--humberuger menu---*/
+
+.navbar-toggler span{
+    color: #fff;
+    font-size: 25px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+/*---dropdown menu---*/
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #192631;
+    min-width: 310px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown i{
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.dropdown-content a {
+    padding: 12px 16px;
+    border-bottom: 1px solid #44dd61;
+    text-decoration: none;
+    display: block;
+    color: #fff;
+    font-size: 0.87rem;
+}
+
+.dropdown-content a:hover {
+  color: #44dd61;
+  background: #2f3b45;
+
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content .serv-menu-img{
+  width: 20px;
+  margin-right: 15px;
+}
+
+/*---compressed----*/
+
+.navbar.compressed {
+  padding: 5px 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-transition: all .38s ease;
+  -moz-transition: all .38s ease;
+  -ms-transition: all .38s ease;
+  transition: all .38s ease;
+  background: #192631;
+}
+
+/*-----hero image---*/
+#hero{
+    background: url('../img/assets/sb-hero-image.jpg');
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+}
+
+.hero-caption_one h1{
+  color: rgb(101, 236, 149);
+  font-weight: 300;
+  
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+.do_one{
+  color: #fff;
+}
+
+.digital-title{
+  font-weight: 700;
+}
+
+.hero-caption_one .serv-p{
+  color: #fff;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+.btn{
+  padding: 20px 40px; 
+  border-radius: 50px;
+  line-height: 15px;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+  margin: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  border: none;
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -ms-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+.btn:focus,.btn:active {
+   outline: none !important;
+   box-shadow: none;
+}
+.contact-btn{
+  background: linear-gradient(to right,rgba(38,183,231,1) 0%,rgba(68,221,97,1) 100%)!important;
+  color: #fff;
+}
+  
+.portfolio-btn{
+  color: #44dd61;
+  border: 1px solid #44dd61;
+}
+
+.contact-btn:hover{
+  color: #fff;
+  background: #253746 !important;
+}
+
+.portfolio-btn:hover{
+  background: #44dd61;
+  color: #fff;
+}
+
+.btn-only{
+  border: 1px solid transparent;
+}
+
+.btn-only:hover{
+  border: 1px solid #fff;
+  background: transparent !important;
+}
+
+/*---values---*/
+.values .container-fluid.wild{
+  max-width: none;
+
+}
+
+.b1, .b2{
+  padding: 80px 50px;
+}
+
+.b1{
+  background-color: #32ac5e;
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -ms-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+.b2{
+  background-color: #38c16a;
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -ms-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+.b1:hover, .b2:hover{
+   background-color: #192631;
+}
+
+.values h3{
+  margin: 10px 0;
+  color: #fff;
+}
+
+.values .value-content{
+  color: #f2f2f2;
+}
+
+/*--about us---*/
+
+.about{
+  background-color: #f8fafb;
+}
+
+.about-content{
+  max-width: 60rem;
+
+}
+
+.about-content h3{
+  font-size: 1.5rem;
+}
+
+.about .about-p-h{
+  color: #3dc657;
+}
+
+.about .about-p-l{
+  font-weight: 300;
+}
+
+.about .btn{
+  margin-left: 0;
+}
+
+/*---services---*/
+
+.section-space{
+  padding: 60px 0;
+}
+
+.services.section-space, .footer-right{
+  background-image: url(../img/assets/network-reverse.png);
+  background-color: rgba(0, 0, 0, 0);
+  background-repeat: no-repeat;
+  background-position: left -100px;
+  left: 0px;
+  width: 100%;
+}
+
+.services-row{
+  margin-top: 40px;
+}
+
+.services-row .serv-img{
+  width: 370px;
+}
+
+.serv-desc-img{
+  width: 64px;
+  padding-right: 20px;
+}
+
+.servcies .ser-p{
+  padding:0 20px;
+  padding-bottom: 0;
+
+}
+
+.top-span{
+  font-size: 0.8rem;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.services-row{
+  margin-bottom: 30px;
+}
+
+.services-row .serv-buttom{
+  text-decoration: none;
+  color: #2f9a43;
+  font-size: 0.8rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding-top: -10px;
+  letter-spacing: 0.2px;
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -ms-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+
+
+.services-row .serv-buttom:hover{
+  color: #3dc657;
+}
+
+.services-row i{
+  font-weight: 600;
+  margin-left: 4px;
+}
+
+/*---call to action one---*/
+.call-to-action{
+   background: url('../img/assets/call-to-action.jpg');
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: cover;
+   position: relative;
+   top: 0;
+   bottom: 0;
+   width: 100%;
+   height: 600px;
+   z-index: 1;
+   display: flex;
+   align-items: center;
+}
+
+.call-caption{
+  max-width: 40rem;
+  color: #e6e6e6;
+}
+
+.call-caption h2{
+  color: #e6e6e6;
+  font-weight: 500 !important;
+}
+
+.call-caption h2:after{
+  content:'';
+  display:block;
+  height:0.2em;
+  width:70px;
+  text-align: left;
+  border-bottom:solid;
+  padding-top: 3%;
+  color: #44dd61;
+}
+
+.call-caption .btn{
+  margin: 20px 20px 0px 0px;
+}
+
+/*---blog---*/
+.blog.services.section-space{
+  padding: 80px 0;
+  background-image: url(../img/assets/network-reverse.png);
+  background-color: rgba(0, 0, 0, 0);
+  background-repeat: no-repeat;
+  background-position: right -100px;
+  left: 0px;
+  width: 100%;
+}
+
+.blog i{
+  margin-right: 5px;
+}
+
+.port-content{
+  max-width: 55rem;
+  display: block;
+  margin: 0 auto;
+}
+
+.port-row{
+  margin-top: 50px;
+}
+
+.image-resize{
+  height: 300px;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.blog .contact-btn{
+  text-align: center !important;
+  margin: 30px auto;
+  display: block;
+  width: 200px;
+}
+
+/*---call to action two---*/
+.call2{
+  background-image: url(../img/assets/call_2.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 300px;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+}
+
+.call2 .call-caption{
+  max-width: 50rem;
+  padding-bottom: 40px;
+}
+
+.call2 .call-caption h3{
+  font-weight: 400 !important;
+  color: #fff;
+  font-size: 2.5rem;
+}
+
+.call_text{
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+  display: block;
+}
+
+.call2_btn{
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+.call2_btn:hover{
+  background-color: #253746;
+  color: #fff;
+  border: 1px solid #253746;
+}
+
+
+/*--footer--*/
+
+.footer-h2{
+  font-weight: 500 !important;
+}
+
+
+div.col-7{
+  padding-left: 90px !important;
+}
+
+.footer .number{
+  font-weight: 600;
+  font-size: 3rem;
+}
+
+.social li{
+  display: inline-block;
+  margin-right: 30px;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  border-radius: 50%;
+  font-size: 2.5rem;
+  color: #fff;
+  background-color: #253746;
+  text-align: center;
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -ms-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+.social li:hover {
+  color: #253746;
+  background-color: #e6e6e6;
+}
+
+.footer-left ul{
+   padding-top: 25px;
+}
+
+.footerline {
+    background-color: #44dd61;
+    padding: 40px 0;
+    color: #fff;
+}
+
+.footerline p{
+  text-align: right;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+}
+
+.footerline a{
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 50%;
+  margin-left: 10px;
+  font-size: 2rem;
+  background-color: rgba(0,0,0,0.3);
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -ms-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+.footerline a:hover{
+  background-color: #000;
+}
+
+
+
+/*--Media quires for the home page--*/
+
+/*--Small devices (landscape phones, 576px and up)--*/
+@media screen and (max-width: 415px) {
+
+  .navbar{
+   background-color: #192631;
+   padding: 10px 0;
+  }
+
+  .navbar-brand{
+      width: 80px;
+      margin-left: 20px;
+    }
+
+  .navbar img{
+      width: 20px;
+    }
+     
+  .sb {
+      font-size: 1rem;
+      padding: 0 0 0 5px;
+    }
+
+  .hero-caption_one img{
+    width: 180px;
+  }
+
+  #hero .hero-caption_one{
+    padding-top: 50px;
+  }
+
+  .btn{
+    margin: 20px auto;
+    font-size: 0.8rem;
+    padding: 10px 20px;
+    display: block;
+    width: 200px;
+    text-align: center;
+  }
+
+  p,li{
+    font-size: 0.9rem;
+    
+  }
+
+  p{
+    text-align: justify;
+  }
+
+  h1{
+      font-size: 1.5rem;
+    }
+
+  h2{
+      font-size: 1.3rem;
+    }
+
+  h3{
+      font-size: 1.1rem;
+    }
+
+  h4{
+      font-size: 1.1rem;
+    }
+
+    /*-----hero image---*/
+    #hero{
+        background: url('../img/assets/sb-hero-image-mobile.jpg');
+        background-color: #000;
+        background-repeat: no-repeat;
+        background-position: center center;
+        -webkit-background-size: cover;
+        background-size: cover;
+        background-attachment: fixed;
+        position: relative;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100vh;
+        z-index: 1;
+        display: flex;
+        align-items: center;
+    }
+
+    .hero-caption_one .serv-p{
+      font-size: 0.8rem;
+      text-align: center;
+    }
+
+  .b1, .b2{
+    padding: 20px 20px;
+  }
+
+  .top-span{
+    font-size: 0.8rem;
+  }
+  .section-space{
+    padding: 30px 20px !important;
+  }
+
+  .about-content h3{
+    font-size: 1.1rem;
+  }
+
+  .about .about-p-h{
+    color: #3dc657;
+  }
+
+  .about .about-p-l{
+    font-weight: 300;
+  }
+
+  .services-description{
+    padding: 0 60px;
+  }
+  .services-row{
+    margin-top: 20px;
+  }
+
+  .about-content .call-btn{
+    width: 150px;
+  }
+
+  .serv-box{
+    margin-top: 20px;
+  }
+
+  .services-row .serv-buttom{
+    font-size: 0.7rem;
+  }
+
+  .serv-desc-img{
+    width: 55px;
+  }
+
+  .blog .call-btn{
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  /*---call to action one---*/
+
+  .call-caption{
+    max-width: 22rem;
+    padding: 30px 0px;
+  }
+
+  .call-caption h2:after{
+    width:40px;
+
+  }
+
+  .call-to-action{
+     height: 500px;
+  }
+
+  .call-to-action .call-btn{
+    width: 262px;
+    text-align:  center;
+  }
+
+   .portfolio.services.section-space {
+      padding: 45px 0;
+   }
+
+   .image-resize{
+      margin-bottom: 30px;
+      height: 250px;
+     }
+
+     .call2{
+      height: 350px;
+     }
+
+    .call2 .call-caption h3{
+      padding-top: 20px;
+      font-size: 1.5rem;
+    }
+
+    .call2 .call2_btn{
+      margin-bottom: 50px;
+    }
+
+    .call_text{
+      font-size: 1rem;
+    }
+
+    .footer.footer-right.section-space{
+      padding-top: 10px;
+      padding-bottom: 30px;
+    }
+
+    .footer{
+      padding-left: 20px;
+    }
+
+    .footer .number{
+      font-size: 1.9rem;
+    }
+
+    .social li{
+      width: 63px;
+      height: 63px;
+      line-height: 63px;
+      font-size: 2.3rem;
+      margin-right: 2px;
+    }
+
+    .footerline p{
+      text-align: center;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    .footerline a{
+      color: #fff;
+      padding: 5px 15px;
+      border-radius: 50%;
+      margin-left: 10px;
+      font-size: 1.5rem;
+    }
+
+}
+
+/*--Medium devices (tablets, 768px and up)--*/
+@media screen and (max-width: 768px) {
+    .navbar-brand{
+      margin-left: 20px;
+    }
+
+    .navbar{
+     background-color: #192631;
+     padding: 10px 0;
+    }
+
+
+    .b1, .b2 {
+      border-bottom: 1px solid #ebf0f5;
+    }
+
+    .section-space{
+      padding: 50px 20px;
+    }
+
+    .iphone-image{
+      display: none;
+    }
+
+     /*-----hero image---*/
+    #hero{
+        background: url('../img/assets/sb-hero-image-mobile.jpg');
+        background-color: #000;
+        background-repeat: no-repeat;
+        background-position: center center;
+        -webkit-background-size: cover;
+        background-size: cover;
+        background-attachment: fixed;
+        position: relative;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100vh;
+        z-index: 1;
+        display: flex;
+        align-items: center;
+    }
+
+    .services-description{
+      padding-left: 40px;
+      padding-right: 40px;
+    }
+
+    .call-to-action{
+      padding: 0 20px;
+    }
+
+    .call-caption{
+       max-width: 33rem;
+    }
+
+    .blog_row{
+      text-align: center;
+      margin-bottom: 70px;
+    }
+
+    .blog_row .image-resize{
+      height: 400px;
+    }
+
+    .call2{
+      padding: 0 20px;
+    }
+
+    .footerline p{
+      text-align: center;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+}
+
+/* ----------- iPad Pro ----------- */
+
+
+/*===========================================  Desigh & Development Page  =====================================================*/
+
+/*-----hero image---*/
+#development{
+    background-image: url(../img/assets/dev-back-img.jpg);
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 500px;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+}
+
+#development .hero-caption h1, #email_hero .hero-caption h1, #digital_hero h1, #domain_hero h1, #maintanance_horo h1{
+  color: rgb(101, 236, 149);
+  letter-spacing: 1px;
+  font-weight: 600 !important;
+  margin-top: 120px;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+.making-cont{
+  color: #fff;
+  font-weight: 300;
+}
+
+.mark_online{
+  width: 300px !important;
+}
+
+.dev-wrapper{
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 1.5px;
+  margin: 10px 0;
+  font-weight: 600;
+}
+
+#development .btn, #email_hero .btn, #digital_hero .btn, #domain_hero .btn, #maintanance_horo .btn{
+  margin-left: 0;
+}
+
+.design_dev {
+  background-color: #f8fafb;
+}
+
+.packages_content{
+  margin-top: 50px;
+}
+
+.functionality h2{
+  text-transform: uppercase;
+}
+.websol{
+    background: linear-gradient(to right,rgba(38,183,231,1) 0%,rgba(68,221,97,1) 100%)!important;
+    color: #fff;
+    font-size: 1.5rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+}
+
+.list-group-item.websol.best_seller{
+  background: #cc3399 !important;
+  font-weight: 700;
+}
+
+.num_content{
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #616566;
+  font-family: "Montserrat", sans-serif;
+}
+
+.p_m{
+  color: #000;
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+
+.icon_built{
+  color: #44dd61;
+  margin-left: 5px;
+  font-weight: 700 !important;
+}
+
+.packges_level{
+  background-color: #EBEBEB;
+  color: #333333;
+  border-color: #d9d9d9;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+}
+
+.functionality{
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  margin: 10px auto;
+  background-color: #192631;
+  padding: 20px 0;
+}
+
+.functionality h2{
+  color: #fff;
+  font-weight: 300 !important;
+}
+
+.functionality_call{
+  font-weight: 600;
+}
+
+@media screen and (max-width: 415px) {
+
+  .hero-caption{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  #development .hero-caption h1, #email_hero .hero-caption h1, #digital_hero h1, #domain_hero h1, #maintanance_horo h1{
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .dev-wrapper{
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: 0.7rem;
+  }
+
+  #development .btn, #email_hero .btn, #digital_hero .btn, #domain_hero .btn, #maintanance_horo .btn{
+    text-align: center;
+    margin: 0 auto;
+    width: 280px;
+  }
+
+  .about-p-h{
+    font-size: 1rem;
+  }
+
+  .design_dev img{
+    padding-top: 15px;
+    
+  }
+
+    .about-content{
+    margin-bottom: 0px !important;
+  }
+
+  .special_mobile_section{
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+
+
+  .packages, .email_details, .pricing_marketing, .maintenance_text, .blog_content, .port_content, .why_ssl_adv{
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+  }
+
+  .packages h2{
+    font-size: 1.2rem;
+  }
+
+  .num_content{
+    font-size: 1.4rem;
+  }
+
+  .websol{
+    font-size: 1.2rem;
+   }
+
+   .functionality h2{
+    font-size: 1.2rem;
+    max-width: 35rem;
+    margin: 0 auto;
+  }
+
+  .domain_registration{
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+   #development, #email_hero, #domain_hero, #maintanance_horo, #digital_hero {
+      height: 410px !important;
+   }
+    .hero-caption{
+      padding-left: 20px;
+    }
+
+    .solbox{
+      margin-top: 30px;
+    }
+
+    .functionality h2{
+      max-width: 35rem;
+      margin: 0 auto;
+    }
+
+    .about-content{
+      margin-bottom: 15px;
+    }
+}
+
+/*================================================= EMAIL PAGE ========================================================*/
+.email_content{
+  padding-bottom: 30px;
+}
+
+/*-----hero image---*/
+#email_hero{
+    background-image: url(../img/assets/email-back-img.jpg);
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 500px;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+}
+
+.email_title{
+  margin-top: 50px;
+}
+
+.email_title h3{
+  color: #595959;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: -20px;
+}
+
+.email_title h3:after{
+  content:'';
+  display:block;
+  height:0.2em;
+  width:50px;
+  text-align: left;
+  border-bottom:solid;
+  padding-top: 1%;
+  color: #00264d;
+}
+
+
+.email_year{
+  display: block;
+  color: #616566;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+}
+
+.domain_registration{
+  margin-top: 20px;
+  background-color: #EBEBEB;
+  border-color: #d2d2d2;
+  padding: 20px 20px;
+  border-radius: 5px;
+}
+.domain_regist_pacakges{
+  font-weight: 600;
+}
+
+.domain_registration a{
+  color: #253746;
+  font-weight: 600;
+}
+
+.image_serv img{
+  width: 189px;
+}
+
+.image_serv .image-resize{
+  height: 250px;
+  object-fit: cover;
+  object-position: center center;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 415px) {
+   #email_hero{
+      height: 300px;
+    }
+    .email_title h3{
+      font-size: 1rem;
+      text-align: center
+  }
+
+  .email_title h3:after{
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .email_title{
+    margin-top: 30px;
+  }
+
+  .business_h3_mobile{
+    margin-top: -50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .business_h3_mobile, .enterprise_h3_mobile{
+    padding-left: 20px;
+  }
+}
+
+
+/*==============================================Domain and Hosting===============================================*/
+
+
+#domain_hero{
+    background-image: url(../img/assets/bg-hosting.jpg);
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 500px;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+}
+
+.table_content{
+  margin-top: 50px;
+}
+
+.domain_title{
+  font-size: 2rem;
+  padding-top: 20px;
+}
+
+.domain_adv li, .features_free li{
+  line-height: 2;
+  text-align: left !important;: 
+}
+
+.domain_adv li{
+  margin-left: 50px;
+}
+
+.domain_adv .far, .features_free .far, .maintenance_text .far{
+  color: #44dd61;
+  font-weight: 700;
+  margin-right: 5px;
+}
+
+.why_ssl{
+  margin-top: 50px;
+}
+
+.ssl_price{
+  font-size: 1.5rem;
+}
+
+.faq_text{
+  margin-bottom: 30px;
+}
+
+.btn-link {
+    color: #333;
+    padding: 0;
+}
+
+.card-header {
+    padding: .10rem 1.0rem;
+    margin-bottom: 0;
+    background-color: rgba(0,0,0,.03);
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+
+.faq .fas{
+  margin-right: 5px;
+  color: #44dd61;
+}
+
+.faq .btn{
+  text-decoration: none;
+  text-transform: none;
+  border: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 415px) {
+    .domain_title{
+      font-size: 1.5rem;
+      padding-top: 0px;
+    }
+
+    .ssl_price{
+      font-size: 1.2rem;
+    }
+
+    .ssl_price_year{
+      margin-top: 10px;
+    }
+
+    .card {
+      overflow: hidden;
+      text-align: justify-all;
+    }
+
+    .card h3{
+      padding-right: 80px;
+      display: block;
+    }
+
+    .hosting_p_mobile h2{
+      margin-top: -51px;
+    }
+
+
+}
+
+
+@media screen and (max-width: 768px) {
+    .why_ssl_adv{
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+}
+
+
+
+/*==========================================WEB MAINTENANCE=======================================*/
+#maintanance_horo{
+    background-image: url(../img/assets/bg-web.jpg);
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 500px;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+}
+
+.maintenance .image-resize {
+    height: 323px;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.maintenance_text h2{
+  margin-bottom: 30px;
+}
+
+
+
+/*============================================== Digital Services page ====================================*/
+
+#digital_hero{
+    background-image: url(../img/assets/bg-social.jpg);
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 500px;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+}
+
+.digital_serv{
+  margin-top: 50px;
+}
+
+
+.title-one, .title-two, .title-three, .title-four{
+  font-weight: 700;
+}
+
+.title-one, .title-two, .title-four {
+  padding-top: 10px;
+}
+
+.title-three {
+  padding-top: 50px;
+}
+
+.media_advert{
+  font-size: 1.2rem;
+  font-style: italic;
+  padding-bottom: 10px;
+  display: block;
+}
+
+.marketing_content .image-resize {
+    height: 400px;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.mark_image .image-resize{
+    height: 480px;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.social_icon{
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.marketing_social li{
+  line-height: 2.5;
+  display: inline;
+  margin-right: 20px;
+}
+
+.marketing-first.one_time{
+  padding-left: 60px;
+}
+
+.midle-marketing {
+  margin: 50px 0;
+}
+
+
+.first-box{
+  margin-top: 30px;
+}
+.price_mark{
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+}
+
+.pricing_marketing h2{
+  margin-bottom: 50px;
+}
+
+.section_content{
+  margin-bottom: 30px;
+}
+
+.light_adv{
+  font-weight: 300;
+}
+
+@media screen and (max-width: 415px) {
+    #development, #email_hero, #domain_hero, #maintanance_horo, #digital_hero {
+      height: 270px !important;
+   }
+
+    .marketing-first.one_time, .marketing-first{
+      padding-left: 0px;
+      text-align: center;
+    }
+
+    .midle-marketing{
+      margin: 50px 0;
+    }
+
+    .marketing_content .image-resize {
+        height: 200px;
+    }
+
+      .title-four{
+        padding-top: 20px !important;
+    }
+
+      .title-one, .title-two, .title-three {
+      padding-top: 10px;
+    }
+
+    .image_serv img{
+      width: 128px;
+    }
+
+    .image_mobile_down img{
+      margin-top: 20px;
+    }
+
+
+    .marketing_social li{
+      display: block;
+      margin: 20px 0px 0 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    .midle-marketing{
+      margin: 0;
+    }
+
+
+    .marketing-first.one_time{
+      padding-left: 0px;
+    }
+
+    .box_color_mobile{
+      border-bottom: 1px solid grey;
+    }
+
+
+}
+
+@media screen and (max-width: 768px) {
+    .marketing-first.one_time {
+      padding-left: 5px;
+    }
+
+    .title-one, .title-two, .title-three {
+      padding-top: 20px;
+     }
+
+    .title-two {
+      padding-top: 10px !important;
+     }
+
+     .title-one, .title-two, .title-four {
+      padding-top: 20px;
+     }
+}
+
+/*==============================================BLOG=======================================*/
+
+
+
+.blog-img{
+  padding-top: 30px;
+}
+
+.row-spance{
+  margin-top: 30px;
+}
+
+.blog i{
+ color: #44dd61;
+}
+
+.row-spance .blog_name{
+  margin: 10px 0;
+  color: #44dd61;
+  display: block;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+}
+
+.blog_title{
+  font-weight: 600;
+  transition: all 0.3s ease 0s;
+}
+
+.blog_title:hover{
+  color: #44dd61;
+}
+
+
+.blog_row a{
+  text-decoration: none;
+}
+
+.blog_row a:hover{
+  color: #253746;
+  text-decoration: none;
+}
+
+.sb_blog{
+  font-weight: 700;
+}
+
+@media screen and (max-width: 415px) {
+  .blog h2{
+    text-align: center;
+    margin-bottom: -20px;
+  }
+
+  .blog .image-resize, .blog-master .image-resize{
+    height: 200px;
+  }
+
+  .blog_name{
+    padding-bottom: 10px;
+    display: block;
+  }
+}
+
+/*========================BLOG POST PAGES============================*/
+
+.blog_hero{
+    height: 250px !important;
+}
+
+.image_blog{
+  padding-top: 10px;
+  width: 700px;
+}
+
+.social_blog ul li{
+  display: inline-block;
+}
+
+.social_blog li{
+  margin-left: 20px;
+  font-size: 1.2rem;
+}
+
+.social_blog a:hover{
+  color: #44dd61;
+}
+
+.blog_text{
+  margin-top: 40px;
+}
+
+.blog_post h2{
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.pages{
+  margin-top: 10px;
+  display: block;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.pages:hover{
+  text-decoration: none;
+}
+
+
+.blog_content i{
+  font-weight: 600;
+}
+
+.next_previous {
+  margin-top: 10px;
+}
+
+
+@media screen and (max-width: 415px) {
+
+  .blog_hero{
+    height: 200px !important;
+  }
+
+  .blog_row{
+    margin-bottom: 40px;
+  }
+
+  .blog-date{
+    font-size: 0.7rem;
+  }
+
+  .blog_content .blog_top-title{
+    padding: 0 20px;
+  }
+
+  .blog_post h2{
+    padding-left: 20px;
+  }
+
+  .social_blog ul{
+    text-align: center;
+  }
+
+  .box_img{
+    padding-right: 52px;
+  }
+
+  .pages{
+    font-size: 0.8rem;
+    text-align: center !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .blog_post h2, .blog_content{
+    padding-left: 20px;
+  }
+
+  .blog_content{
+    padding-left: 30px;
+    padding-right: 30px;
+    justify-content: center;
+  }
+
+    .social_blog ul{
+    text-align: center;
+  }
+
+    .box_img{
+       padding-left: 40px;
+    }
+   
+    .next_page_right {
+      text-align: right;
+    }
+
+     .pages{
+      font-size: 1rem;
+      text-align: center !important;
+    }
+}
+
+/*===================== PORTFOLIO ============================*/
+
+.row-spance{
+  margin-top: 60px;
+}
+
+.port_title{
+  font-weight: 500;
+  color: #44dd61;
+}
+
+.port_content a{
+  transition: all 0.3s ease 0s;
+}
+
+.port_content a:hover{
+  text-decoration: none;
+  color: #253746;
+}
+
+@media screen and (max-width: 415px) {
+  .space-col-media{
+    margin-bottom: 20px;
+  }
+
+  .port_title{
+    margin-left: 20px;
+  }
+
+  .port_content{
+    margin: 10px 0;
+  }
+
+  .port_content h4, .port_content p{
+    padding: 0 20px 0 20px;
+  }
+
+  .contactForm{
+    padding: 20px 20px;
+  }
+
+  .row_bottom_mobile{
+    border-bottom: 1px solid grey;
+    padding-bottom: 20px;
+  }
+
+  .row-spance h4{
+    margin-top: -20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .tablet_down{
+    margin-top: 30px;
+  }
+}
+
+
+
+/*=========================== CONTACT FORM =============================*/
+
+.contact_form{
+  margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
